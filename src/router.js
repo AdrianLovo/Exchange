@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from '@/views/Home';
 import About from '@/views/About';
 import Error from '@/views/Error';
+import CoinDetail from '@/views/CoinDetail';
 
 //Utilizar el Router
 Vue.use(Router)
@@ -26,6 +27,11 @@ export default new Router({
             path: '*',          //Ruta
             name: 'Error',       //Nombre
             component: Error     //Componente
+        },
+        {
+            path: '/coin/:id',          //Ruta dinamica
+            name: 'coin-detail',       //Nombre
+            component: CoinDetail      //Componente
         }
 
     ]
