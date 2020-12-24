@@ -7,7 +7,7 @@
                    <router-link 
                         :to="{name: 'home'}"
                         class="font-semibold text-xl tracking-tight">
-                            Platzi Exchange
+                            Exchange
                     </router-link>
                </div>
                <div class="hidden sm:block w-full blok flex-grow lg:flex lg:items-center lg:wauto">
